@@ -6,7 +6,7 @@ module.exports = {
     LinkedIn: '<a href="http://www.linkedin.com/in/haji8"><i class="fab fa-linkedin fact-icon"></i> haji8 </a>',
     GitHub: '<a href="https://github.com/haji8-data"><i class="fab fa-github fact-icon"></i> haji8-data </a>',
     Email: '<a href="mailto:gwd7454@gmail.com">gwd7454@gmail.com</a>',
-    Korean_CV:'<a href="https://haji8-data.github.io/cv/">https://haji8-data.github.io/cv_eng/</a>',
+    'Korean CV':'<a href="https://haji8-data.github.io/cv/"><i class="fab fa-file-text-o fact-icon"></i>CV_Kor</a>',
 
   },
   skills: [
