@@ -1,12 +1,13 @@
 module.exports = {
   name: 'Jiyang Ha',
-  title: 'Data Developer',
-  baseUrl: 'https://sneas.github.io/cv/',
+  title: 'Data Engineer',
   facts: {
     Residence: 'Seoul, South Korea',
     LinkedIn: '<a href="http://www.linkedin.com/in/haji8"><i class="fab fa-linkedin fact-icon"></i> haji8 </a>',
     GitHub: '<a href="https://github.com/haji8-data"><i class="fab fa-github fact-icon"></i> haji8-data </a>',
     Email: '<a href="mailto:gwd7454@gmail.com">gwd7454@gmail.com</a>',
+    Korean_CV:'<a href="https://haji8-data.github.io/cv/">https://haji8-data.github.io/cv_eng/</a>',
+
   },
   skills: [
     ['python', '++'],
@@ -28,9 +29,9 @@ module.exports = {
   positions: [
     {
       company: 'BALAAN',
-      location: 'Nonhyeon',
+      location: 'Seoul, Korea',
       title: 'Data Developer',
-      period: 'may 2020 - present',
+      period: 'may 2020 - Aug 2021',
       skills: ['JavaScript', 'NodeJs', 'mongodb', 'mysql', 'typescript','python','ElasticSearch','AWS QuickSight','AWS Data services'],
       contents: `The team that manages the BALAAN data`,
       detail: [
@@ -40,7 +41,7 @@ module.exports = {
     },
     {
       company: 'NAVER Corp',
-      location: 'Bundang',
+      location: 'Gyeonggi-do, Korea',
       title: 'Data Engineer',
       period: 'Jul 2016 - Aug 2018',
       skills: ['Python','django','hadoop','kafka','flume','logstash','hive','ElasticSearch','spark','java'],
@@ -53,7 +54,7 @@ module.exports = {
     },
     {
       company: 'WatchTek',
-      location: 'Yeouido',
+      location: 'Seoul, Korea',
       title: 'Java Software Engineer',
       period: 'Mar 2014 - Apr 2016',
       skills: ['java','mybatis','spring','flex','sencha touch', 'codova', 'oracle','mysql','junit','Jenkins','Sonar Qube', 'MediaWiki'],
