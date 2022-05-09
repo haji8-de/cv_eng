@@ -4,18 +4,19 @@ module.exports = {
   facts: {
     Residence: 'Seoul, South Korea',
     LinkedIn: '<a href="http://www.linkedin.com/in/haji8"><i class="fab fa-linkedin fact-icon"></i> haji8 </a>',
-    GitHub: '<a href="https://github.com/haji8-data"><i class="fab fa-github fact-icon"></i> haji8-data </a>',
+    GitHub: '<a href="https://github.com/haji8-de"><i class="fab fa-github fact-icon"></i> haji8-data </a>',
     Email: '<a href="mailto:gwd7454@gmail.com">gwd7454@gmail.com</a>',
-    'Korean CV':'<a href="https://haji8-data.github.io/cv/"><i class="fab fa-file-text-o fact-icon"></i>CV_Kor</a>',
+    'Korean CV':'<a href="https://haji8-de.github.io/cv/"><i class="fab fa-file-text-o fact-icon"></i>CV_Kor</a>',
 
   },
   skills: [
-    ['python', '++'],
+    ['python', '+++'],
     ['Javascript', '++'],
-    ['Typescript', '+'],
-    ['Vue.js', '+'],
+    ['Vue.js', '++'],
+    ['flask', '++'],
+    ['postgrsql', '++'],
+    ['graphql', '+'],
     ['ElasticSearch', '+++'],
-    ['java', '++'],
     ['Athena', '+++'],
     ['QuickSight', '+++'],
     ['Firehose', '+++'],
@@ -27,6 +28,19 @@ module.exports = {
     ['MongoDB', '++'],
   ],
   positions: [
+    {
+      company: 'Looko',
+      location: 'Gangnam',
+      title: 'Data Enginner',
+      period: 'Sep 2021 - Present',
+      skills: ['python', 'flask', 'Vue.js', 'mongodb', 'mariadb', 'postgrsql', 'Javascript'],
+      contents: `AI team that researches and advances fashion AI models`,
+      detail: [
+        'Data labeling back office development for AI',
+        'Image type identification/ background removal model advancement',
+        'Fashion item attribute classification model training image increasing for improve model performance'
+      ],
+    },
     {
       company: 'BALAAN',
       location: 'Seoul, Korea',
@@ -74,31 +88,30 @@ module.exports = {
   ],
   release:[
     {
-      type:'thesis',
-      title:'PC Virtual I/O Device Development using Android Smartphone',
-      url:'https://www.eiric.or.kr/literature/ser_view.php?SnxGubun=INKO&mode=total&searchCate=literature&gu=INME001E9&cmd=qryview&SnxIndxNum=152361&rownum=&totalCnt=1&rownum=1&q1_t=7JWI65Oc66Gc7J2065OcIOyKpOuniO2KuO2PsOydhCDsnbTsmqntlZwgUEMg6rCA7IOBIOyehey2nOugpSDs',
-      date:'Jan 2013',
-    },
-    {
       type:'patent',
       title:'Resource information management and data storage system through the management of the resource template',
       url:'http://kpat.kipris.or.kr/kpat/biblioa.do?method=biblioFrame&start=biblio&searchFg=N',
       date:'Dec 2015',
+    },
+    {
+      type:'thesis',
+      title:'PC Virtual I/O Device Development using Android Smartphone',
+      url:'https://www.eiric.or.kr/literature/ser_view.php?SnxGubun=INKO&mode=total&searchCate=literature&gu=INME001E9&cmd=qryview&SnxIndxNum=152361&rownum=&totalCnt=1&rownum=1&q1_t=7JWI65Oc66Gc7J2065OcIOyKpOuniO2KuO2PsOydhCDsnbTsmqntlZwgUEMg6rCA7IOBIOyehey2nOugpSDs',
+      date:'Jan 2013',
     }
   ],
   certifications:[
-
     {
       icon:'',
-      url:'http://www.q-net.or.kr/crf005.do?id=crf00503&jmCd=1320&gSite=Q&gId',
-      title:'Engineer Information Processing',
-      date:'Nov 2013'
+      url:'https://coursera.org/share/a3eec63e1a35bcc206a98a58567e0b2d',
+      title:'Coursera ML course',
+      date:'Oct 2021'
     },
     {
       icon:'',
-      url:'',
-      title:'OPIC IL',
-      date:'Jan 2014'
+      url:'https://www.tdisdi.com/sdi/get-certified/divemaster-course/',
+      title:'SDI DIVE MASTER',
+      date:'Mar 2020'
     },
     {
        icon:'',
@@ -108,17 +121,23 @@ module.exports = {
     },
     {
       icon:'',
-      url:'https://www.tdisdi.com/sdi/get-certified/divemaster-course/',
-      title:'SDI DIVE MASTER',
-      date:'Mar 2020'
+      url:'',
+      title:'OPIC IL',
+      date:'Jan 2014'
     },
+    {
+      icon:'',
+      url:'http://www.q-net.or.kr/crf005.do?id=crf00503&jmCd=1320&gSite=Q&gId',
+      title:'Engineer Information Processing',
+      date:'Nov 2013'
+    }
   ],
   addExperience:[
     {
-      type: 'activity',
-      title: 'Kumoh University of YMCA Volunteer Club',
-      url: '',
-      date: 'Mar 2010 ~ Feb 2013',
+      type: 'theater',
+      title: 'Theater bingong-gan, A Midsummer Night\'s Dream, Snug role',
+      url: 'https://www.youtube.com/watch?v=gLPWCMX1eKs',
+      date: 'Aug 2015',
     },
     {
       type: 'activity',
@@ -126,45 +145,19 @@ module.exports = {
       url: '',
       date: 'Mar 2013 ~ Feb 2014',
     },
-    {
-      type: 'theater',
-      title: 'Theater bingong-gan, A Midsummer Night\'s Dream, Snug role',
-      url: 'https://www.youtube.com/watch?v=gLPWCMX1eKs',
-      date: 'Aug 2015',
-    },
   ],
   award:[
-    {
-      title: '2011 Capstone Design Contest, bronze prize - RMD for Android',
-      url:'http://gmilbo.net/news/article.html?no=21412',
-      date:'Nov 2011',
-    },
     {
       title: '2012 Capstone Design Contest, first prize - Bubble Finder',
       url:'',
       date:'Nov 2012',
     },
+    {
+      title: '2011 Capstone Design Contest, bronze prize - RMD for Android',
+      url:'http://gmilbo.net/news/article.html?no=21412',
+      date:'Nov 2011',
+    },
   ]
 
 
 };
-
-
-const test ={
-
-  career: [
-    {
-       period:'2010 - 2012',
-       title:'java',
-       desc:'test'
-    },
-    {
-       period:'2010 - 2012',
-       title:'java',
-       desc:'test'
-    }
-  ],
-  addExperience:[
-    'test1','test2'
-  ]
-}
